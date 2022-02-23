@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Billy Bob's Burgers & Subs </title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+
+    <u id="headerUL">
+      <h1 id="pageHeader" class="sp"> Billy Bob's Burgers & Subs </h1>
+    </u>
+
+    <i>
+      <h4 id="tagline" class="sp"> "Food with attitude" </h4>
+    </i>
+
+  </header>
+
+  <hr>
+
+  <section>
+
+    <p class="sp message"> Before submitting an order, be sure to enter your information first! </p>
+
+    <p id="endMessage" class="sp message">
+      Thanks!
+      <span id="owner">
+        -Billy Bob
+      <span>
+    </p>
+
+    <h3 id="custInfo" class="sp smallHeader"> Enter your information here: </h3>
+
+  </section>
+
+  <section class="sp">
+
+    <span class="inputF"> Full Name: </span>
+    <input id="fName" class="fl" type="text" placeholder="John">
+    <input id="mi" type="text" placeholder="M.I. (optional)">
+    <input id="lName" class="fl" type="text" placeholder="Appleseed">
+
+    <br>
+
+    <span class="inputF"> Email: </span>
+    <input type="email" placeholder="example@billybob.com">
+
+    <br>
+
+    <textarea rows="5" cols="50" placeholder="Leave any comments, questions or concerns here!"></textarea>
+
+    <br>
+
+    <span> Username: </span>
+    <input id="username" class="userCreation" type="text" placeholder="User">
+
+    <br>
+
+    <span> Password: </span>
+    <input id="initPass" class="userCreation" type="password" placeholder="Password">
+
+    <br>
+
+    <span> Confirm Password: </span>
+    <input id="confPass" class="userCreation" type="password" placeholder="Confirm Password">
+
+    <br>
+
+  </section>
+
+<hr>
+
+  <section class="sp">
+
+    <div id="orderForm">
+      <form id="form" action="https://www.wikipedia.org/" method="POST" target="_blank">
+
+        <span class="message"> Select your sandwich type: </span>
+
+        <br>
+
+        <input id="burger" type="radio" name="sandType" value="Burger"> Burger
+        <br>
+        <input id="sub" type="radio" name="sandType" value="Sub"> Sub
+
+        <br>
+        <br>
+
+        <span class="message"> Select your sauces: </span>
+
+        <br>
+
+        <input id="redWine" type="checkbox" name="sauce" value="Red Wine Vinegar"> Red Wine Vinegar
+        <br>
+        <input id="mayo" type="checkbox" name="sauce" value="Mayonaisse"> Mayonaisse
+        <br>
+        <input id="oil" type="checkbox" name="sauce" value="Oil"> Oil
+        <br>
+        <input id="ketchup" type="checkbox" name="sauce" value="Ketchup"> ketchup
+
+        <br>
+        <br>
+
+        <span id="message"> What type of bread would you like? </span>
+
+        <br>
+
+        <select id="bread" name="bread">
+          <option value="--Select--" selected> --Select-- </option>
+          <option value="Gluten Free"> Gluten Free </option>
+          <option value="White"> White </option>
+          <option value="Whole Wheat"> Whole Wheat </option>
+          <option value="Raisin"> Raisin </option>
+        </select>
+
+        <br>
+        <br>
+
+        <input type="submit">
+
+      </form>
+    </div>
+
+  </section>
+
+  <footer>
+
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
